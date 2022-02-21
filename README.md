@@ -18,10 +18,9 @@ To play the sounds of the script you need another script:
 ![image](https://user-images.githubusercontent.com/93496101/155001482-d9f87866-7818-461e-a9d9-c724dafcc4af.png)
 ![image](https://user-images.githubusercontent.com/93496101/155001643-8dec49d7-be65-4666-9d2f-c731264bf5ad.png)
 
-
-
 # Other Scripts:
 * [nix_o2mask]( https://github.com/NixCD/nix_o2mask )
+* [nix_npcarmas]( https://github.com/NixCD/nix_npcarmas )
 
 # Contact Me
 * Discord: Nix#7410
