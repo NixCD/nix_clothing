@@ -13,9 +13,9 @@ Made by NixCD (Nix#7410)
 To play the sounds of the script you need another script:
 * [Interact-Sound] https://github.com/plunkettscott/interact-sound
 1) Download Master & Extract the .zip or Open the .zip
-2) Add `ensure InteractSound"` to your server.cfg & put it higher than `ensure nix_clothing"`
+2) Add `ensure InteractSound` to your server.cfg & put it higher than `ensure nix_clothing`
 ![image](https://user-images.githubusercontent.com/93496101/155001290-938c9d6e-5696-4690-b34a-70d83884e85a.png)
-4) Finally, you need to put the sounds on \interact-sound\client\html\sounds and execute them in fxmanifiest of InteractSound.
+3) Finally, you need to put the sounds on \interact-sound\client\html\sounds and execute them in fxmanifiest of InteractSound.
 ![image](https://user-images.githubusercontent.com/93496101/155001482-d9f87866-7818-461e-a9d9-c724dafcc4af.png)
 ![image](https://user-images.githubusercontent.com/93496101/155001643-8dec49d7-be65-4666-9d2f-c731264bf5ad.png)
 
