@@ -25,7 +25,7 @@ To play the sounds of the script you need another script:
 * [nix_o2mask]( https://github.com/NixCD/nix_o2mask )
 
 # Contact Me
-* [Discord]( Nix#7410 )
+* Discord: Nix#7410
 * [GitHub]( https://github.com/NixCD )
 
 # Legal
