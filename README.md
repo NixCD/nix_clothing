@@ -6,7 +6,7 @@ Made by NixCD (Nix#7410)
 
 # Download & Installation:
 1) Download Master & Extract the .zip or Open the .zip
-2) Add `ensure nix_clothing"` to your server.cfg & Change top-right to whatever side you want
+2) Add `ensure nix_clothing` to your server.cfg & Change top-right to whatever side you want
 3) Read the README's of whatever script you plan on using.
 
 # How to use InteractSound:
