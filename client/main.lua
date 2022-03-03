@@ -1,4 +1,4 @@
-local playerPed = GetPlayerPed(-1)
+local playerPed = PlayerPedId()
 local playerCoords = GetEntityCoords(playerPed)
 local activateboth = true
 local distance = 2
