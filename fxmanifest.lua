@@ -11,11 +11,4 @@ client_scripts {
 	'locales/*.lua'
 }
 
-server_scripts {
-	'@es_extended/locale.lua',
-	'server/main.lua',
-	'config.lua',
-	'locales/*.lua'
-}
-
--- Script created by Nix#7410
+-- Contact Nix#7410
