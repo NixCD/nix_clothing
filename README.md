@@ -1,5 +1,3 @@
-Made by NixCD (Nix#7410)
-
 # Requirements:
 * Required:
   * [Interact-Sound] https://github.com/plunkettscott/interact-sound
