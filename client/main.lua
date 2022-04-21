@@ -3,6 +3,22 @@ local playerCoords = GetEntityCoords(playerPed)
 local activateboth = true
 local distance = 2
 
+Citizen.CreateThread(function()
+	while true do
+		TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
+		Citizen.Wait(0)
+			if GetDistanceBetweenCoords(GetEntityCoords(playerPed), vector3(Config.Coords.x, Config.Coords.y, Config.Coords.z)) < distance and activateboth and not IsPedInAnyVehicle(playerPed, false) then
+			ESX.ShowFloatingHelpNotification(_U('floating_action'), vector3(Config.Coords.x, Config.Coords.y, Config.Coords.z+1))
+			if IsControlJustReleased(1, 38) then
+				activateboth = false
+				OpenCriminalMenu()
+				Citizen.Wait(1000)
+				activateboth = true
+			end
+		end
+	end
+end)
+
 function animation()
      RequestAnimDict("mp_common")
     while (not HasAnimDictLoaded("mp_common")) do
@@ -114,23 +130,6 @@ function Criminal(job, playerPed)
   end
 
 -- THREADS
-
-Citizen.CreateThread(function()
-	while true do
-		TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
-		Citizen.Wait(0)
-			if GetDistanceBetweenCoords(GetEntityCoords(playerPed), vector3(Config.Coords.x, Config.Coords.y, Config.Coords.z)) < distance and activateboth and not IsPedInAnyVehicle(playerPed, false) then
-			ESX.ShowFloatingHelpNotification(_U('floating_action'), vector3(Config.Coords.x, Config.Coords.y, Config.Coords.z+1))
-			if IsControlJustReleased(1, 38) then
-				activateboth = false
-				OpenCriminalMenu()
-				Citizen.Wait(1000)
-				activateboth = true
-			end
-		end
-	end
-end)
-
 
 Citizen.CreateThread(function()
 	while Config.Marker.activate do 
