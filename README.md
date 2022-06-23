@@ -1,6 +1,8 @@
 # Requirements:
 * Required:
   * [Interact-Sound] https://github.com/plunkettscott/interact-sound
+  * [esx_skin] https://github.com/mitlight/esx_skin
+  * [skinchanger] https://github.com/mitlight/skinchanger
 
 # Download & Installation:
 1) Download Master & Extract the .zip or Open the .zip
